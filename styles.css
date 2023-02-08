@@ -1,0 +1,179 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+.nft-title,
+.nft-description,
+.price-parent,
+.artist-parent {
+    width: 83%;
+    margin: 0 auto;
+}
+
+.nft-preview-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+.container {
+    display: grid;
+    width: 90%;
+    max-width: 400px;
+    min-width: 300px;
+    margin: 0 auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1.5rem;
+}
+
+
+.nft-image {
+    /* padding-top: 3rem; */
+    margin: 1.5rem auto 2rem;
+    width: 83%;
+    border-radius: 9px;
+}
+
+.image-hover-effect {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    opacity: 0;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 9px;
+    text-align: center;
+}
+
+
+
+.nft-title {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.nft-description {
+    padding-bottom: 1.5rem;
+}
+
+
+.price-parent {
+    padding-bottom: .5rem;
+}
+
+.nft-price {
+    float: left;
+}
+
+.nft-price svg {
+    position: relative;
+    left: -7px;
+    bottom: -2px;
+}
+
+
+.nft-duration-of-sale {
+    float: right;
+    
+}
+
+.nft-duration-of-sale svg {
+    position: relative;
+    right: 5px;
+    bottom: -3px;    
+}
+
+
+/* Soft-Blue Font Color */
+.soft-blue-accent {
+    color:hsl(215, 51%, 70%);
+    
+}
+
+.cyan-accent {
+    color: hsl(178, 100%, 50%);
+    position: relative;
+    left: 10px;
+}
+
+
+hr {
+    width: 83%;
+    color: hsl(215, 32%, 27%);
+    /* margin-bottom: 1.5rem; */
+}
+
+
+
+.nft-artist {
+    position: relative;
+}
+
+.nft-artist img {
+    position: relative;
+    width: 2.5rem;
+    border: solid 1px white;
+    border-radius: 100%;
+    float: left;
+    bottom: 7px;
+    margin-right: 1.3rem;
+}
+.artist-parent {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.nft-title:hover,
+.nft-artist a:hover {
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.nft-image:hover {
+    opacity: 0.3;
+}
+
