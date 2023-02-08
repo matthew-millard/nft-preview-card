@@ -118,7 +118,7 @@ img {
 }
 
 .price::before {
-    content: url(/images/icon-ethereum.svg);
+    content: url(./images/icon-ethereum.svg);
     position: relative;
     bottom: -2px;
     right: 3px;
@@ -129,7 +129,7 @@ img {
     
 }
 .end-of-sale::before {
-    content:url(/images/icon-clock.svg);
+    content:url(./images/icon-clock.svg);
     position: relative;
     bottom: -2px;
     right: 5px;
@@ -157,7 +157,7 @@ hr {
 }
 
 .preview-card__artist::before {
-    background-image: url(/images/image-avatar.png);
+    background-image: url(./images/image-avatar.png);
     background-size: 50px;
     width: 50px;
     height: 50px;
