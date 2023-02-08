@@ -97,6 +97,6 @@ Users should be able to:
 
 ## Acknowledgments
 
-- Kevin Powell [](https://www.kevinpowell.co/)
+- Kevin Powell [@KevinPowell](https://www.youtube.com/kevinpowell)
 
-- Andy Bell [](https://andy-bell.co.uk/a-modern-css-reset/)
+- Andy Bell [@andybell](https://andy-bell.co.uk/a-modern-css-reset/)
